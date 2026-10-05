@@ -13,31 +13,30 @@ This assignment implements and compares Merge Sort and Quick Sort using the assi
 1. Merge Sort
 2. Quick Sort
 
-Both programs produce:
+## Final Sorted Sequence
 
 102, 125, 147, 218, 275, 324, 389, 456
 
----
-
 ## Repository Contents
 
-- Source code
-- Input data
-- Program output
-- Merge Sort trace
-- Quick Sort trace
-- Complexity analysis
-- Comparison table
-- Final conclusion
+- `src/merge_sort.c` — Merge Sort implementation
+- `src/quick_sort.c` — Quick Sort implementation
+- `input/input.txt` — Assigned input data
+- `output/merge_sort_output.txt` — Merge Sort execution output
+- `output/quick_sort_output.txt` — Quick Sort execution output
+- `trace/merge_sort_trace.md` — Merge Sort trace table
+- `trace/quick_sort_trace.md` — Quick Sort partition trace
+- `analysis/complexity_analysis.md` — Complexity analysis
+- `comparison/comparison_table.md` — Merge Sort vs Quick Sort comparison
+- `conclusion/conclusion.md` — Final conclusion
 
----
-
-## Run the Programs
-
-From the repository root, compile and run with a C compiler such as GCC.
+## How to Compile and Run
 
 ### Merge Sort
 
 ```bash
 gcc -std=c11 -Wall -Wextra -pedantic src/merge_sort.c -o merge_sort
 ./merge_sort
+
+gcc -std=c11 -Wall -Wextra -pedantic src/quick_sort.c -o quick_sort
+./quick_sort
