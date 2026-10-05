@@ -1,0 +1,6 @@
+Quick Sort
+Input : 324, 125, 456, 218, 102, 389, 275, 147
+Sorted: 102, 125, 147, 218, 275, 324, 389, 456
+Key comparisons: 16
+Swap calls (including self-swaps): 12
+Non-self exchanges: 6
