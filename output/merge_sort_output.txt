@@ -1,0 +1,5 @@
+Merge Sort
+Input : 324, 125, 456, 218, 102, 389, 275, 147
+Sorted: 102, 125, 147, 218, 275, 324, 389, 456
+Key comparisons: 17
+Writes to main array during merging: 24
